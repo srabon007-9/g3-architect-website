@@ -192,11 +192,21 @@ main > section{
    .sponsor-companies{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 50px;
     
    }
 
    .sponsor-companies img{
     filter: grayscale(100%);
+
+   }
+
+   /* footer style */
+   .footer{
+    background-color: #FFF4E7;
+    padding: 5px 12px;
+    text-align: center;
+
    }
 
 /* Responsive media query */
@@ -247,6 +257,9 @@ main > section{
     .our-features{
         margin-left: 50px auto;
     }
+    .team-img-container{
+        grid-template-columns: 1fr;
+    }
     .sponsor-companies{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
@@ -256,4 +269,7 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
+    .facts-container{
+        grid-template-columns: repeat(2, 1fr);   
+       }
 }
